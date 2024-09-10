@@ -82,3 +82,40 @@ p {
     text-align: center;
   }
 }
+.work-inquiry h2 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bold;
+}
+.work-inquiry p {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.work-inquiry {
+  background-color: var(--secondary-color);
+  margin: 40px 60px;
+  padding: 20px 60px;
+  border-radius: 20px;
+}
+.btn-talking {
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  background: var(--branding-color);
+}
+footer {
+  text-align: center;
+  font-size: 24px;
+}
+.icons {
+  color: var(--branding-color);
+  margin-top: 20px;
+}
+.each-icon {
+  background-color: var(--secondary-color);
+  padding: 15px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
