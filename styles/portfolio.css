@@ -29,6 +29,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -86,44 +89,7 @@ p {
     padding: 0;
   }
 }
-/* */
-.work-inquiry h2 {
-  font-family: var(--heading-font-family);
-  font-size: 48px;
-  font-weight: bold;
-}
-.work-inquiry p {
-  font-size: 18px;
-  font-family: var(--default-font-family);
-}
-.work-inquiry {
-  background-color: var(--secondary-color);
-  margin: 40px 60px;
-  padding: 20px 60px;
-  border-radius: 20px;
-}
-.btn-talking {
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-  background: var(--branding-color);
-}
-footer {
-  text-align: center;
-  font-size: 24px;
-}
-.icons {
-  color: var(--branding-color);
-  margin-top: 20px;
-}
-.each-icon {
-  background-color: var(--secondary-color);
-  padding: 15px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
+
 /* */
 .content h1 {
   font-size: 64px;
@@ -156,4 +122,37 @@ footer {
 }
 .nav-item {
   padding: 0 10px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
 }
